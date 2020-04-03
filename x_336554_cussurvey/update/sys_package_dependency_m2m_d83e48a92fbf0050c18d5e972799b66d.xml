@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">14dc97b737323300ed0dded993990eff</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-26 13:46:49</sys_created_on>
+        <sys_id>d83e48a92fbf0050c18d5e972799b66d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Customer Survey" source="x_336554_cussurvey">f07c00292fbf0050c18d5e972799b69a</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-26 13:46:49</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-27 10:29:54</sys_created_on>
+        <sys_id>35ba68392f3b8050c18d5e972799b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_336554_cussurvey_submitted_survey.x_336554_cussurvey.submitted_survey_user</sys_name>
+        <sys_package display_value="Customer Survey" source="x_336554_cussurvey">f07c00292fbf0050c18d5e972799b69a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Survey">f07c00292fbf0050c18d5e972799b69a</sys_scope>
+        <sys_security_acl display_value="x_336554_cussurvey_submitted_survey">29ba68392f3b8050c18d5e972799b6a6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_35ba68392f3b8050c18d5e972799b6ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-27 10:29:54</sys_updated_on>
+        <sys_user_role display_value="x_336554_cussurvey.submitted_survey_user" name="x_336554_cussurvey.submitted_survey_user">9dbaa4b12f3b8050c18d5e972799b6a3</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

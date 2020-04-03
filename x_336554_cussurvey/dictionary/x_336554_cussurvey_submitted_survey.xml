@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Submitted Survey" max_length="40" name="x_336554_cussurvey_submitted_survey" sizeclass="3" type="collection">
+        <element choice="3" default="5" label="CSM Content Knowledge" max_length="1" name="csm_content_knowledge" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 - poor" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2 - optimizable" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3 - satisfying" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4 - good" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5 - excellent" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="html_sanitize=true" label="CSM Content Knowledge comment" max_length="8000" name="csm_content_knowledge_comment" read_only="true" type="html"/>
+        <element choice="3" default="1" label="CSM Professionalism" max_length="1" name="csm_professionalism" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 - poor" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2 - optimizable" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3 - satisfying" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4 - good" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5 - excellent" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="CSM Professionalism Comment" max_length="4000" name="csm_professionalism_comment" read_only="true" type="html"/>
+        <element label="E-mail address" mandatory="true" max_length="255" name="e_mail_address" read_only="true" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="80" name="last_name" type="string"/>
+        <element choice="1" label="Month" max_length="2" name="month" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="January" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="February" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="March" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="April" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="May" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="June" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="July" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="August" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="September" sequence="9" value="9"/>
+                <element inactive_on_update="false" label="October" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="November" sequence="11" value="11"/>
+                <element inactive_on_update="false" label="December" sequence="12" value="12"/>
+            </choice>
+        </element>
+        <element label="Survey Link" max_length="32" name="survey_link" read_only="true" reference="x_336554_cussurvey_survey_link" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Year" max_length="4" name="year" read_only="true" type="integer"/>
+    </element>
+</database>

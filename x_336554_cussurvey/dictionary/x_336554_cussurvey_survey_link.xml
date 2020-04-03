@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Survey link" max_length="40" name="x_336554_cussurvey_survey_link" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Survey due date" max_length="40" name="survey_due_date" type="glide_date_time"/>
+        <element function_definition="glidefunction:concat('https://dev51817.service-now.com/sp?id=sc_cat_item&amp;sys_id=fdd199f12f3f8050c18d5e972799b67d&amp;year=','2020','&amp;month=','3','&amp;survey_link=',sys_id)" function_field="true" label="Survey link for current month" max_length="2000" name="survey_link_for_current_month" read_only="true" type="url"/>
+        <element function_definition="glidefunction:concat('https://dev51817.service-now.com/sp?id=sc_cat_item&amp;sys_id=fdd199f12f3f8050c18d5e972799b67d&amp;year=','2020','&amp;month=','2','&amp;survey_link=',sys_id)" function_field="true" label="Survey link for last month" max_length="2000" name="survey_link_for_last_month" read_only="true" type="url"/>
+        <element function_definition="glidefunction:concat('https://dev51817.service-now.com/sp?id=sc_cat_item&amp;sys_id=fdd199f12f3f8050c18d5e972799b67d&amp;survey_link=',sys_id)" function_field="true" label="Survey Permalink" max_length="2000" name="survey_permalink" read_only="true" type="url"/>
+    </element>
+</database>

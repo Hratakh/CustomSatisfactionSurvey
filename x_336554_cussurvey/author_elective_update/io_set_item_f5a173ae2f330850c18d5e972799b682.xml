@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="SWO Customer Survey">fdd199f12f3f8050c18d5e972799b67d</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 08:55:31</sys_created_on>
+        <sys_id>f5a173ae2f330850c18d5e972799b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Survey Defaults.SWO Customer Survey</sys_name>
+        <sys_package display_value="Customer Survey" source="x_336554_cussurvey">f07c00292fbf0050c18d5e972799b69a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Survey">f07c00292fbf0050c18d5e972799b69a</sys_scope>
+        <sys_update_name>io_set_item_f5a173ae2f330850c18d5e972799b682</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 08:55:31</sys_updated_on>
+        <variable_set display_value="Survey Defaults">48c1f3ae2f330850c18d5e972799b6e0</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Survey">f07c00292fbf0050c18d5e972799b69a</application>
+        <file_path/>
+        <instance_id>44e07ae7dbe49f0452e3f70fbf961941</instance_id>
+        <instance_name>dev51817</instance_name>
+        <name>io_set_item_f5a173ae2f330850c18d5e972799b682</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="SWO Customer Survey">fdd199f12f3f8050c18d5e972799b67d</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-30 08:55:31</sys_created_on><sys_id>f5a173ae2f330850c18d5e972799b682</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Survey Defaults.SWO Customer Survey</sys_name><sys_package display_value="Customer Survey" source="x_336554_cussurvey">f07c00292fbf0050c18d5e972799b69a</sys_package><sys_policy/><sys_scope display_value="Customer Survey">f07c00292fbf0050c18d5e972799b69a</sys_scope><sys_update_name>io_set_item_f5a173ae2f330850c18d5e972799b682</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-30 08:55:31</sys_updated_on><variable_set display_value="Survey Defaults">48c1f3ae2f330850c18d5e972799b6e0</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1086044282</payload_hash>
+        <record_name>Survey Defaults.SWO Customer Survey</record_name>
+        <reverted_from/>
+        <source>bc7c00292fbf0050c18d5e972799b69c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 08:55:31</sys_created_on>
+        <sys_id>98e1f7ae2f330850c18d5e972799b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1712aa72d740000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 08:55:31</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>90e1f7ae4f3308504208d8d93e272363</update_guid>
+        <update_guid_history>90e1f7ae4f3308504208d8d93e272363:1086044282</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Survey Defaults.SWO Customer Survey">8c46607a2f770850c18d5e972799b65b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 12:44:19</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>88b3d42e1ab94b5ea470e4742b214544</sys_id>
+        <sys_metadata>f5a173ae2f330850c18d5e972799b682</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Survey Defaults.SWO Customer Survey</sys_name>
+        <sys_package display_value="Customer Survey" source="x_336554_cussurvey">f07c00292fbf0050c18d5e972799b69a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Survey">f07c00292fbf0050c18d5e972799b69a</sys_scope>
+        <sys_scope_delete display_value="">42661186943749c880c866b4e3903c40</sys_scope_delete>
+        <sys_update_name>io_set_item_f5a173ae2f330850c18d5e972799b682</sys_update_name>
+        <sys_update_version display_value="io_set_item_f5a173ae2f330850c18d5e972799b682">98e1f7ae2f330850c18d5e972799b663</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-30 12:44:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

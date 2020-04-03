@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_336554_cussurvey_submitted_survey</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Validate survey submission</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var gr = new GlideRecord("x_336554_cussurvey_submitted_survey");
+    //gr.addEncodedQuery('year=2020^month=2^e_mail_address=stefan.reichelt@comparex.com^survey_link=9e54c1fa2f3b0850c18d5e972799b615');
+    gr.addEncodedQuery('year=' + current.year + '^month=' + current.month + '^e_mail_address=' + current.e_mail_address + '^survey_link=' + current.survey_link);
+    gr.query();
+    var existingSurveys = gr.getRowCount();
+    if (existingSurveys > 0) {
+		gs.addErrorMessage('There is already a submission for the time period selected.');
+		setAbortAction();
+    }
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-31 07:50:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c069a44b2f7f4850c18d5e972799b6a8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Validate survey submission</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Survey" source="x_336554_cussurvey">f07c00292fbf0050c18d5e972799b69a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Survey">f07c00292fbf0050c18d5e972799b69a</sys_scope>
+        <sys_update_name>sys_script_c069a44b2f7f4850c18d5e972799b6a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-31 07:55:12</sys_updated_on>
+        <template>active=false^EQ</template>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c069a44b2f7f4850c18d5e972799b6a8"/>
+</record_update>

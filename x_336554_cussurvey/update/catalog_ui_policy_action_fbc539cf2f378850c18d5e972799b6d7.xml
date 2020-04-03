@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="SWO Customer Survey">fdd199f12f3f8050c18d5e972799b67d</catalog_item>
+        <catalog_variable>IO:94d4318f2f378850c18d5e972799b6d2</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-31 13:10:41</sys_created_on>
+        <sys_id>fbc539cf2f378850c18d5e972799b6d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>csm_content_knowledge_comment</sys_name>
+        <sys_package display_value="Customer Survey" source="x_336554_cussurvey">f07c00292fbf0050c18d5e972799b69a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Survey">f07c00292fbf0050c18d5e972799b69a</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_fbc539cf2f378850c18d5e972799b6d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-31 13:10:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show Content Knowledge comment">0da535cf2f378850c18d5e972799b68d</ui_policy>
+        <variable>csm_content_knowledge_comment</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

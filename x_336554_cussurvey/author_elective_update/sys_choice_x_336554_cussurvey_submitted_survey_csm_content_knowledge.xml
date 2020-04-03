@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="csm_content_knowledge" table="x_336554_cussurvey_submitted_survey" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>csm_content_knowledge</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - poor</label>
+            <language>en</language>
+            <name>x_336554_cussurvey_submitted_survey</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-31 12:23:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>461b2d8f2ff38850c18d5e972799b621</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-31 12:23:46</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>csm_content_knowledge</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - optimizable</label>
+            <language>en</language>
+            <name>x_336554_cussurvey_submitted_survey</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-31 12:23:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbfaed8f2ff38850c18d5e972799b657</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-31 12:23:22</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>csm_content_knowledge</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - satisfying</label>
+            <language>en</language>
+            <name>x_336554_cussurvey_submitted_survey</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-31 12:22:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20ea2d8f2ff38850c18d5e972799b619</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-31 12:22:55</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>csm_content_knowledge</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - good</label>
+            <language>en</language>
+            <name>x_336554_cussurvey_submitted_survey</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-31 12:22:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87baa98f2ff38850c18d5e972799b67b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-31 12:22:22</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>csm_content_knowledge</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 - excellent</label>
+            <language>en</language>
+            <name>x_336554_cussurvey_submitted_survey</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-31 12:19:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>923a6d472ff38850c18d5e972799b6ba</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-31 12:20:41</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>csm_content_knowledge</element>
+            <name>x_336554_cussurvey_submitted_survey</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-31 12:19:47</sys_created_on>
+            <sys_id>da3a6d472ff38850c18d5e972799b6ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>csm_content_knowledge</sys_name>
+            <sys_package display_value="Customer Survey" source="x_336554_cussurvey">f07c00292fbf0050c18d5e972799b69a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Survey">f07c00292fbf0050c18d5e972799b69a</sys_scope>
+            <sys_update_name>sys_choice_x_336554_cussurvey_submitted_survey_csm_content_knowledge</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-31 12:19:47</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

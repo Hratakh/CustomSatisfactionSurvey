@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="cf95e8072f7f4850c18d5e972799b6d6" sys_domain="global" table="x_336554_cussurvey_submitted_survey" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-31 07:20:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4395e8072f7f4850c18d5e972799b6da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_336554_cussurvey_submitted_survey" name="x_336554_cussurvey_submitted_survey" sys_domain="global" view="Default view">cf95e8072f7f4850c18d5e972799b6d6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_336554_cussurvey_submitted_survey" sys_domain="global" view="Default view">3c04e0832f7f4850c18d5e972799b61c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-31 07:20:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-31 07:20:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4395e8072f7f4850c18d5e972799b6db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_336554_cussurvey_submitted_survey" name="x_336554_cussurvey_submitted_survey" sys_domain="global" view="Default view">cf95e8072f7f4850c18d5e972799b6d6</sys_ui_form>
+            <sys_ui_section caption="Questions" display_value="Questions" name="x_336554_cussurvey_submitted_survey" sys_domain="global" view="Default view">4b95e8072f7f4850c18d5e972799b6d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-31 07:20:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_336554_cussurvey_submitted_survey</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-31 07:20:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf95e8072f7f4850c18d5e972799b6d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_336554_cussurvey_submitted_survey</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Customer Survey" source="x_336554_cussurvey">f07c00292fbf0050c18d5e972799b69a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Survey">f07c00292fbf0050c18d5e972799b69a</sys_scope>
+            <sys_update_name>sys_ui_form_sections_cf95e8072f7f4850c18d5e972799b6d6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-31 07:20:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
