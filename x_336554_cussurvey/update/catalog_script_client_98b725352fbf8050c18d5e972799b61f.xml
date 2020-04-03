@@ -43,42 +43,42 @@
     var verifiedSurveyLinkId = '';
     querySurveyLink(paramSurveySysId);
 
-        function querySurveyLink(survey_link_id) {
-            var returnedSysId = '';
-            var survey_link_object = new GlideRecord("x_336554_cussurvey_survey_link");
-            survey_link_object.addQuery('sys_id', survey_link_id);
-            survey_link_object.setLimit(1);
-            survey_link_object.query(myCallbackFunction);
+    function querySurveyLink(survey_link_id) {
+        var returnedSysId = '';
+        var survey_link_object = new GlideRecord("x_336554_cussurvey_survey_link");
+        survey_link_object.addQuery('sys_id', survey_link_id);
+        survey_link_object.setLimit(1);
+        survey_link_object.query(myCallbackFunction);
 
-            function myCallbackFunction(survey_link_object) {
-                while (survey_link_object.next()) {
-                    g_form.setValue('survey_link', survey_link_object.sys_id);
-					g_form.setValue('company', survey_link_object.company)
-					verifiedSurveyLinkId = survey_link_object.sys_id;
-                }
+        function myCallbackFunction(survey_link_object) {
+            while (survey_link_object.next()) {
+                g_form.setValue('survey_link', survey_link_object.sys_id);
+                g_form.setValue('company', survey_link_object.company);
+                verifiedSurveyLinkId = survey_link_object.sys_id;
             }
         }
+    }
 
-        //Snippet source: https://www.servicenowguru.com/scripting/client-scripts-scripting/client-side-dates-in-servicenow/
-        function getParameterValue(name) {
-            name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-            var regexS = "[\\?&]" + name + "=([^&#]*)";
-            var regex = new RegExp(regexS);
-            var results = regex.exec(top.location);
-            if (results == null) {
-                return "";
-            } else {
-                return unescape(results[1]);
-            }
+    //Snippet source: https://www.servicenowguru.com/scripting/client-scripts-scripting/parse-url-parameters-client-script/
+    function getParameterValue(name) {
+        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+        var regexS = "[\\?&]" + name + "=([^&#]*)";
+        var regex = new RegExp(regexS);
+        var results = regex.exec(top.location);
+        if (results == null) {
+            return "";
+        } else {
+            return unescape(results[1]);
         }
-    }]]></script>
+    }
+}]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-27 15:01:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>98b725352fbf8050c18d5e972799b61f</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>defaults</sys_name>
         <sys_overrides/>
         <sys_package display_value="Customer Survey" source="x_336554_cussurvey">f07c00292fbf0050c18d5e972799b69a</sys_package>
@@ -86,7 +86,7 @@
         <sys_scope display_value="Customer Survey">f07c00292fbf0050c18d5e972799b69a</sys_scope>
         <sys_update_name>catalog_script_client_98b725352fbf8050c18d5e972799b61f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-31 13:36:02</sys_updated_on>
+        <sys_updated_on>2020-04-03 09:37:00</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

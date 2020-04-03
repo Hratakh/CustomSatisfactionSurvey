@@ -32,7 +32,7 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -59,14 +59,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-27 14:45:10</sys_created_on>
         <sys_id>ad8425fd2f7f8050c18d5e972799b692</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Month</sys_name>
         <sys_package display_value="Customer Survey" source="x_336554_cussurvey">f07c00292fbf0050c18d5e972799b69a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Survey">f07c00292fbf0050c18d5e972799b69a</sys_scope>
         <sys_update_name>item_option_new_ad8425fd2f7f8050c18d5e972799b692</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-31 09:10:40</sys_updated_on>
+        <sys_updated_on>2020-04-03 09:39:47</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>
